@@ -1,0 +1,30 @@
+.one{
+  background-color: green;
+  position:fixed;
+  width:100%;
+  
+  z-index: 1;
+}
+
+.searchinput{
+  position: relative;
+left: 830px;
+  width:150px;
+  top:-55px;
+  border-radius: 15px;
+  padding-left: 3px;
+}
+.searchinput:hover {
+  width:250px;
+  transition: 1.5s;
+}
+#card1{
+  width:50%;
+  display: flex;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+#one{
+  position: relative;
+  top:50px
+}

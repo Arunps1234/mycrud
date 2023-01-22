@@ -1,0 +1,111 @@
+@media only screen and ((min-width:1201px) and (max-width:1891px)) {
+       .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 300px
+    }
+    #error{
+        position:absolute;
+        left: 500px;
+    }
+
+
+}
+
+
+@media only screen and ((min-width:995px) and (max-width:1200px)) {
+
+
+    .searchinput {
+        position: absolute;
+        top: 15px;
+        left: 675px
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 300px
+    }
+    #error{
+        position: absolute;
+        left: 400px;
+    }
+}
+
+@media only screen and ((min-width:768px) and (max-width:995px)) {
+
+    .card {
+        width: 930px
+    }
+
+    .searchinput {
+        position: absolute;
+        left: 660px;
+        top: 10px
+    }
+
+    .pagination {
+        position:absolute;
+        left:400px;
+    }
+
+    #error{
+        position: absolute;
+        left: 400px;
+    }
+}
+
+@media only screen and ((min-width:481px) and (max-width:767px)) {
+
+    .card {
+        width: 900px;
+
+    }
+
+    .searchinput {
+        position: absolute;
+        top: 15px;
+        left: 640px
+    }
+
+    .pagination {
+        position:absolute;
+        left:380px;
+    }
+#error{
+    position: absolute;
+    left: 400px;
+}
+
+
+}
+
+@media only screen and ((min-width:250px) and (max-width:480px)) {
+
+
+    .card {
+        width: 900px;
+        position: relative;
+        left: 10px
+    }
+
+    .searchinput {
+        position: absolute;
+        top: 15px;
+        left: 600px
+    }
+
+    .pagination {
+        position:absolute;
+        left:350px
+    }
+    #error{
+position:absolute;
+left:380px
+        
+
+    }
+}
