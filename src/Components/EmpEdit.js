@@ -6,7 +6,7 @@ const EmpEdit = () => {
 const {empid}=useParams();
 
 useEffect(()=>{
-fetch('http://localhost:10000/employess/' +empid).then(res=>{
+fetch('https://test-api-n1bp.onrender.com/employess/' +empid).then(res=>{
     return res.json();
 }).then(resp=>{
 setId(resp.id);
@@ -40,7 +40,7 @@ const navigate=useNavigate();
 const handleSubmit=(e)=>{
 e.preventDefault()
 const data={id, name,email,phone,check}
-fetch('http://localhost:10000/employess/' +empid,{
+fetch('https://test-api-n1bp.onrender.com/employess/' +empid,{
     method:"PUT",
     headers:{'content-type':'application/json'},
     body:JSON.stringify(data)

@@ -9,7 +9,7 @@ const EmploDetails = () => {
 
 
     useEffect(() => {
-        fetch("http://localhost:10000/employess/" + empid).then(
+        fetch("https://test-api-n1bp.onrender.com/employess/" + empid).then(
             res => {
                 return res.json();
             })

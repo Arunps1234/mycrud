@@ -26,7 +26,7 @@ const Employeelisting = () => {
     // for 2 and 10 10 ,20
 
     useEffect(() => {
-        fetch('http://localhost:10000/employess').then(res => {
+        fetch('https://test-api-n1bp.onrender.com/employess').then(res => {
             return res.json();
         }).then(resp => {
             setData(resp)
@@ -50,7 +50,7 @@ const Employeelisting = () => {
 
     const Removefunction = (id) => {
         if (window.confirm("DO YOU WANT TO REMOVE ?")) {
-            fetch("http://localhost:10000/employess/" + id, {
+            fetch("https://test-api-n1bp.onrender.com/employess/" + id, {
                 method: "DELETE"
             }).then(res => {
                 alert("Deleted Successfully!")

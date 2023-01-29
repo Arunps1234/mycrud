@@ -36,7 +36,7 @@ const EmplyeeCreate = ({ val }) => {
 
         const data = { name, email, phone, check }
 
-        fetch('http://localhost:10000/employess', {
+        fetch('https://test-api-n1bp.onrender.com/employess', {
             method: "POST",
             headers: { "content-type": 'application/json' },
             body: JSON.stringify(data)
